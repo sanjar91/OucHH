@@ -47,7 +47,7 @@ As an **evil spirited roommate**, I want to **connect to my roommate’s OucHH a
 
 ### Hardware Components
 * Synchronous electric Motor: This motor will receive relay from Raspberry Pi and rotate a prop arm. Below are the specifications of the motor:
-  * Frequency 50/60Hz, Power 4W, Voltage AC 100~127V, Speed 5~6R/min 
+  * Frequency 50/60Hz, Power 4W, Voltage AC 100 ~ 127V, Speed 5 ~ 6R/min 
 * Plastic prop arm: This prop arm will be attached to the motor. When the motor starts the arm will rotate and continuously slap the user until the users stops the alarm
 * Raspberry Pi 3 B+:  Using Wi-Fi or Bluetooth protocol Raspberry Pi will receive alerts from mobile app and relay it to the motor to turn on and rotate the prop arm 
 * Android mobile phone: Samsung Galaxy S4 used to download and test the OucHH app
