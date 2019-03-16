@@ -49,7 +49,7 @@ As an **evil spirited roommate**, I want to **connect to my roommate’s OucHH a
 * Synchronous electric Motor: This motor will receive relay from Raspberry Pi and rotate a prop arm. Below are the specifications of the motor:
   * Frequency 50/60Hz, Power 4W, Voltage AC 100~127V, Speed 5~6R/min 
 * Plastic prop arm: This prop arm will be attached to the motor. When the motor starts the arm will rotate and continuously slap the user until the users stops the alarm
-* Raspberry Pi 3B+:  Using Wi-Fi or Bluetooth protocol Raspberry Pi will receive alerts from mobile app and relay it to the motor to turn on and rotate the prop arm 
+* Raspberry Pi 3 B+:  Using Wi-Fi or Bluetooth protocol Raspberry Pi will receive alerts from mobile app and relay it to the motor to turn on and rotate the prop arm 
 * Android mobile phone: Samsung Galaxy S4 used to download and test the OucHH app
 
 
@@ -64,3 +64,7 @@ As an **evil spirited roommate**, I want to **connect to my roommate’s OucHH a
 |----------------|---------------------------|-------------------|------------|
 | Raspberry Pi 3 B+ | Denial of Service | The whole concept architecture relies on Raspberry Pi receiving an alert from mobile application and relaying to the motor in order to rotate the prop arm. A malicious actor can turn off the Raspberry Pi and cause a denial of service. | OucHH mobile app will alert the user when the attached Raspberry Pi is offline. This alert will continue to beep on user’s mobile device until the users turns it off. |
 | Raspberry Pi 3 B+ & OucHH mobile App | Man-in-the-Middle/Unauthorized Access | A malicious actor may alter the alarm time by connecting to the Raspberry Pi using another mobile device. | Add rules to only allow one mobile device connection to hardware at any given time. If another device connects to the hardware the initial user will receive an offline alert. |
+
+## References 
+
+[1] Marbouti, Farshid. “You May be Able to Teach Early Classes, but Students May Not be Awake Yet!” (2014) https://www.semanticscholar.org/paper/You-May-be-Able-to-Teach-Early-Classes%2C-but-May-Not-Marbouti/e05264dbbd9f30d010bf8c63ed32371dce0a5123. 
