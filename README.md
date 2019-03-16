@@ -13,8 +13,8 @@ Waking up from peaceful sleep…... One of the hardest tasks known to college st
 
 OucHH is a new technological innovation that will make certain of waking up college students from their beauty sleep so they don’t miss their morning class. This new alarm clock will solve the issue of students missing morning classes and receiving a lower grade due to the inability of waking up from their sleep. OucHH will provide students a helping hand to their face to ensure they are up when their alarm goes off. We hope this new alarm clock technology helps students make it to class on time and not lose that 5% class grade over each absence. 
 
-# Application Requirements
-## User stories 
+## Application Requirements
+### User stories 
 As a **sleep loving college student**, I want to be certain that my new **OucHH alarm clock wakes me up on time**, so that I **don’t miss my morning class**
 **Acceptance Criteria:**
 * OucHH mobile app sends an alert to Raspberry Pi when the set alarm goes off
@@ -30,7 +30,7 @@ As a **non-traditional student**, I want to be certain that **I can set more tha
 * OucHH mobile app can set more than one alarm
 * OucHH mobile app supports weekday input along with time input
 
-## Misuser stories 
+### Misuser stories 
 As an **evil spirited roommate**, I want to **turn off my roommate’s fancy new alarm clock**, so that s/he **misses her/his morning class**
 **Mitigations:**
 * OucHH mobile app alerts the user when the attached Raspberry Pi is offline. The alert will continue to beep on user’s mobile device until the users turns it off
