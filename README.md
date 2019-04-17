@@ -74,8 +74,8 @@ As an **evil spirited roommate**, I want to **connect to my roommate’s OucHH a
 As a **sleep loving college student**, I want to be certain that my new **OucHH alarm clock wakes me up on time**, so that I **don’t miss my morning class**
 
 **Acceptance Criteria:**
-* OucHH mobile app sends an alert to Raspberry Pi when the set alarm goes off (*In progress*)
-* Raspberry Pi sends a command to rotate the motor causing the prop hand to rotate and slap the sleep loving college student (*Implemented in smaller scale*) 
+* OucHH mobile app sends an alert to Raspberry Pi when the set alarm goes off *(**In progress**)*
+* Raspberry Pi sends a command to rotate the motor causing the prop hand to rotate and slap the sleep loving college student *(**Implemented in smaller scale**)* 
 
 
 
@@ -83,15 +83,15 @@ As a **sleep loving college student**, I want to be certain that my new **OucHH 
 As a **sleep loving college student**, I want to be certain that my new **OucHH alarm clock will stop slapping me when I hit the snooze button on my OucHH mobile app**, so that I **don’t get a black eye**
 
 **Acceptance Criteria:**
-* OucHH mobile app sends an alert to Raspberry Pi when the user hits snooze button (*In progress*)
-* Raspberry Pi sends a command to stop the motor causing the prop hand to stop rotating (*Implemented, change of scope*)
+* OucHH mobile app sends an alert to Raspberry Pi when the user hits snooze button *(**In progress**)*
+* Raspberry Pi sends a command to stop the motor causing the prop hand to stop rotating *(**Implemented, change of scope**)*
 
 ### User story 3:
 As a **non-traditional student**, I want to be certain that **I can set more than one alarm on my new OucHH mobile app for different days**, so that I **don’t have to update the alarm everyday**
 
 **Acceptance Criteria:**
-* OucHH mobile app can set more than one alarm (*Out of scope*)
-* OucHH mobile app supports weekday input along with time input (*Out of scope*)
+* OucHH mobile app can set more than one alarm *(**Out of scope**)*
+* OucHH mobile app supports weekday input along with time input *(**Out of scope**)*
 
 ## References 
 
