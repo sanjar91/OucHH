@@ -16,16 +16,19 @@ OucHH is a new technological innovation that will make certain of waking up coll
 ## Application Requirements
 ### User stories 
 As a **sleep loving college student**, I want to be certain that my new **OucHH alarm clock wakes me up on time**, so that I **don’t miss my morning class**
+
 **Acceptance Criteria:**
 * OucHH mobile app sends an alert to Raspberry Pi when the set alarm goes off
 * Raspberry Pi sends a command to rotate the motor causing the prop hand to rotate and slap the sleep loving college student 
 
 As a **sleep loving college student**, I want to be certain that my new **OucHH alarm clock will stop slapping me when I hit the snooze button on my OucHH mobile app**, so that I **don’t get a black eye**
+
 **Acceptance Criteria:**
 * OucHH mobile app sends an alert to Raspberry Pi when the user hits snooze button 
 * Raspberry Pi sends a command to stop the motor causing the prop hand to stop rotating
 
 As a **non-traditional student**, I want to be certain that **I can set more than one alarm on my new OucHH mobile app for different days**, so that I **don’t have to update the alarm everyday**
+
 **Acceptance Criteria:**
 * OucHH mobile app can set more than one alarm
 * OucHH mobile app supports weekday input along with time input
