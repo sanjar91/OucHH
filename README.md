@@ -104,6 +104,17 @@ As a **non-traditional student**, I want to be certain that **I can set more tha
 
 #### Screen shots of OucHH:
 
+**Home Screen**
+
+[![data_flow_1](https://github.com/sanjar91/CYBR8480-project/blob/master/home%20screen.png)](https://github.com/sanjar91/CYBR8480-project/blob/master/home%20screen.png)
+
+**Select Alarm Screen**
+
+[![data_flow_1](https://github.com/sanjar91/CYBR8480-project/blob/master/select%20screen.png)](https://github.com/sanjar91/CYBR8480-project/blob/master/select%20screen.png)
+
+**Alarm Screen**
+
+[![data_flow_1](https://github.com/sanjar91/CYBR8480-project/blob/master/alarm%20screen.png)](https://github.com/sanjar91/CYBR8480-project/blob/master/alarm%20screen.png)
 
 
 ## References 
