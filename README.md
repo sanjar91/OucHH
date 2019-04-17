@@ -75,9 +75,11 @@ As a **sleep loving college student**, I want to be certain that my new **OucHH 
 
 **Acceptance Criteria:**
 * OucHH mobile app sends an alert to Raspberry Pi when the set alarm goes off *(**In progress**)*
-* Raspberry Pi sends a command to rotate the motor causing the prop hand to rotate and slap the sleep loving college student *(**Implemented in smaller scale**)* 
+* Raspberry Pi sends a command to rotate the motor causing the prop hand to rotate and slap the sleep loving college student  *(**Implemented in smaller scale**)* 
 
-
+#### Progress Details:
+- For the first acceptance criteria I am using the IFTTT to receive the alarm time from OucHH (with use of intent) and send command (alarm time in hours and minutes) to raspberry pi using a webhook. 
+- For the second acceptance criteria a small python program will rotate a servo motor connected to raspberry pi from 0 to 180 degrees and back. 
 
 ### User story 2:
 As a **sleep loving college student**, I want to be certain that my new **OucHH alarm clock will stop slapping me when I hit the snooze button on my OucHH mobile app**, so that I **don’t get a black eye**
@@ -86,12 +88,23 @@ As a **sleep loving college student**, I want to be certain that my new **OucHH 
 * OucHH mobile app sends an alert to Raspberry Pi when the user hits snooze button *(**In progress**)*
 * Raspberry Pi sends a command to stop the motor causing the prop hand to stop rotating *(**Implemented, change of scope**)*
 
+#### Progress Details:
+- The first acceptance criteria is still in progress, I have added a "SNOOZE" button on the mobile app interface that turn off the alarm locally. In addition to this, I will implement the same procedure from User story 1 to send the snooze/stop command to raspberry pi.
+- I have added an exception in python program for KeyboardInterrupt which will stop the motor if program is running from a terminal, and the next step is to add an interrupt which will stop the motor if the snooze button has been hit by the user. 
+
 ### User story 3:
 As a **non-traditional student**, I want to be certain that **I can set more than one alarm on my new OucHH mobile app for different days**, so that I **don’t have to update the alarm everyday**
 
 **Acceptance Criteria:**
 * OucHH mobile app can set more than one alarm *(**Out of scope**)*
 * OucHH mobile app supports weekday input along with time input *(**Out of scope**)*
+
+#### Progress Details:
+- Due to time constrains I will not be adding the functionality of having more than one alarm by the semester's end, but I will work on this project throughout the summer to build a commercial product. So *stay tuned!*
+
+#### Screen shots of OucHH:
+
+
 
 ## References 
 
