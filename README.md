@@ -116,6 +116,18 @@ As a **non-traditional student**, I want to be certain that **I can set more tha
 
 [![data_flow_1](https://github.com/sanjar91/CYBR8480-project/blob/master/alarm%20screen.png)](https://github.com/sanjar91/CYBR8480-project/blob/master/alarm%20screen.png)
 
+## Hardware/Software Requirements
+
+### Hardware 
+* SG90 servo motor
+* Plastic prop arm
+* Raspberry Pi 3
+
+### Software
+* Android Studio for application interface design and emulator 
+* GitHub to access application repository
+* Node-RED installed in Raspberry Pi
+
 
 ## References 
 
