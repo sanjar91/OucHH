@@ -141,13 +141,13 @@ Below are step by step instructions for how to install OucHH:
 
 ## Getting Started Directions
 
-Below are step by step instructions for how to use OucHH mobile app:
+### Below are step by step instructions for how to use OucHH mobile app:
 * Launch the OucHH mobile app in your android device or an android emulator
 * Tap/Click on **SELECT** (A pop up dialog box will appear)
 * In the dialog box, spin the hour and minute roll to your desired time and click **OK** to set the alarm (Note: OucHH uses 24 hour time format)
 * Your alarm is set! You can sleep peacefully now, until of course the arm starts slapping you lol
 
-Below are step by step instructions for how to use OuchH hardware component:
+### Below are step by step instructions for how to use OuchH hardware component:
 * There are three major pieces of hardware that you will need to connect to each other:
   * Raspberry pi
   * SG90 servo motor
