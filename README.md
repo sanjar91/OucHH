@@ -134,9 +134,14 @@ As a **non-traditional student**, I want to be certain that **I can set more tha
 * GitHub to access application repository
 
 ## Installation Directions
-
+Below are step by step instructions for how to install OucHH:
+* Download the source code from OucHH [github repository.](https://github.com/sanjar91/OucHH) 
+* Open the source code with Android studio
+* Run the app in the Android Studio Emulator or deploy it to an andoird phone
 
 ## Getting Started Directions
+Below are step by step instructions for how to use OucHH mobile app and hardware component:
+* 
 
 
 ## References 
