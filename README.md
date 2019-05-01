@@ -140,8 +140,25 @@ Below are step by step instructions for how to install OucHH:
 * Run the app in the Android Studio Emulator or deploy it to an andoird phone
 
 ## Getting Started Directions
-Below are step by step instructions for how to use OucHH mobile app and hardware component:
-* 
+
+Below are step by step instructions for how to use OucHH mobile app:
+* Launch the OucHH mobile app in your android device or an android emulator
+* Tap/Click on **SELECT** (A pop up dialog box will appear)
+* In the dialog box, spin the hour and minute roll to your desired time and click **OK** to set the alarm (Note: OucHH uses 24 hour time format)
+* Your alarm is set! You can sleep peacefully now, until ofcourse the arm starts slapping you lol
+
+Below are step by step instructions for how to use OuchH hardware component:
+* There are three major pieces of hardware that you will need to connect to each other:
+  * Raspberry pi
+  * SG90 servo motor
+  * Plasic prop arm
+* Plug the power and ethernet cable to the Raspberry pi. If wifi is preconfigured in the Raspberry pi, you won't need to connect an ethernet cable. 
+* Connect the SG90 servo motor to the Raspberry pi as shown in the picture below: 
+* Connect the plastic prop arm to the SG90 servo motor as shown in the picture below:
+* Now securly place the SG90 servo motor next to your bed, preferably on a nightstand
+* Make sure the prop arm is within the reach of your pillow
+
+
 
 
 ## References 
