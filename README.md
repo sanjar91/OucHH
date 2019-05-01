@@ -108,7 +108,7 @@ As a **non-traditional student**, I want to be certain that **I can set more tha
 
 **Home Screen**
 
-[![data_flow_1](https://github.com/sanjar91/CYBR8480-project/blob/master/home%20screen.png)](https://github.com/sanjar91/CYBR8480-project/blob/master/home%20screen.png)
+[![data_flow_1](https://github.com/sanjar91/OucHH/blob/master/updated%20home.png)](https://github.com/sanjar91/OucHH/blob/master/updated%20home.png)
 
 **Select Alarm Screen**
 
@@ -116,7 +116,7 @@ As a **non-traditional student**, I want to be certain that **I can set more tha
 
 **Alarm Screen**
 
-[![data_flow_1](https://github.com/sanjar91/CYBR8480-project/blob/master/alarm%20screen.png)](https://github.com/sanjar91/CYBR8480-project/blob/master/alarm%20screen.png)
+[![data_flow_1](https://github.com/sanjar91/OucHH/blob/master/Updated%20alarm.png)](https://github.com/sanjar91/OucHH/blob/master/Updated%20alarm.png)
 
 ## Hardware/Software Requirements
 
