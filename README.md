@@ -128,6 +128,11 @@ As a **non-traditional student**, I want to be certain that **I can set more tha
 * GitHub to access application repository
 * Node-RED installed in Raspberry Pi
 
+## Installation Directions
+
+
+## Getting Started Directions
+
 
 ## References 
 
