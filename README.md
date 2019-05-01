@@ -40,6 +40,7 @@ As an **evil spirited roommate**, I want to **turn off my roommate’s fancy new
 * OucHH mobile app alerts the user when the attached Raspberry Pi is offline. The alert will continue to beep on user’s mobile device until the users turns it off
 
 As an **evil spirited roommate**, I want to **connect to my roommate’s OucHH alarm clock hardware and alter the alarm**, so that s/he **wakes up early and lose their precious sleep**
+
 **Mitigations:**
 * Only one device can be connected to hardware at any given time. If another device connects to the hardware the initial user will receive an offline alert (described in misuse case 1).
 
