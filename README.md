@@ -121,14 +121,17 @@ As a **non-traditional student**, I want to be certain that **I can set more tha
 ## Hardware/Software Requirements
 
 ### Hardware 
-* SG90 servo motor
-* Plastic prop arm
-* Raspberry Pi 3
+* OucHH hardware component designed by yours truly, Sanjar :)
+  * Here are the components used in the OucHH hardware:
+    * SG90 servo motor: Frequency 50Hz, Power 4W, Voltage AC 4.8 V, Speed 0.1 sec/turn
+    * Plastic prop arm: This prop arm will be attached to the motor. When the motor starts the arm will rotate and continuously slap the user until the users stops the alarm
+    * Raspberry Pi 3:  Using an IFTTT webhook Raspberry Pi will receive alerts from mobile app and trigger the servo motor to turn on and rotate the prop arm 
+* Android mobile phone to download and use the app. 
 
 ### Software
-* Android Studio for application interface design and emulator 
+* OucHH mobile app(available on github repo)
+* Android Studio for emulator (in case of not having an android phone)
 * GitHub to access application repository
-* Node-RED installed in Raspberry Pi
 
 ## Installation Directions
 
