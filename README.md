@@ -35,6 +35,7 @@ As a **non-traditional student**, I want to be certain that **I can set more tha
 
 ### Misuser stories 
 As an **evil spirited roommate**, I want to **turn off my roommate’s fancy new alarm clock**, so that s/he **misses her/his morning class**
+
 **Mitigations:**
 * OucHH mobile app alerts the user when the attached Raspberry Pi is offline. The alert will continue to beep on user’s mobile device until the users turns it off
 
