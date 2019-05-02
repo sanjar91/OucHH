@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">ouchh</string>
     <string name="button_select"> Select </string>
-    <string name="button_snooze"> Snooze </string>
+    <string name="button_dismiss"> Dismiss </string>
 </resources>

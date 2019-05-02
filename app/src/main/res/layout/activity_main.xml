@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:background="#333333"
             android:onClick="cancelAlarm"
-            android:text="@string/button_snooze"
+            android:text="@string/button_dismiss"
             android:textColor="@android:color/white"
             android:textSize="35sp"
             android:textStyle="bold" />
