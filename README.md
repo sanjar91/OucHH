@@ -35,10 +35,12 @@ As a **non-traditional student**, I want to be certain that **I can set more tha
 
 ### Misuser stories 
 As an **evil spirited roommate**, I want to **turn off my roommate’s fancy new alarm clock**, so that s/he **misses her/his morning class**
+
 **Mitigations:**
 * OucHH mobile app alerts the user when the attached Raspberry Pi is offline. The alert will continue to beep on user’s mobile device until the users turns it off
 
 As an **evil spirited roommate**, I want to **connect to my roommate’s OucHH alarm clock hardware and alter the alarm**, so that s/he **wakes up early and lose their precious sleep**
+
 **Mitigations:**
 * Only one device can be connected to hardware at any given time. If another device connects to the hardware the initial user will receive an offline alert (described in misuse case 1).
 
@@ -106,7 +108,7 @@ As a **non-traditional student**, I want to be certain that **I can set more tha
 
 **Home Screen**
 
-[![data_flow_1](https://github.com/sanjar91/CYBR8480-project/blob/master/home%20screen.png)](https://github.com/sanjar91/CYBR8480-project/blob/master/home%20screen.png)
+[![data_flow_1](https://github.com/sanjar91/OucHH/blob/master/updated%20home.png)](https://github.com/sanjar91/OucHH/blob/master/updated%20home.png)
 
 **Select Alarm Screen**
 
@@ -114,7 +116,58 @@ As a **non-traditional student**, I want to be certain that **I can set more tha
 
 **Alarm Screen**
 
-[![data_flow_1](https://github.com/sanjar91/CYBR8480-project/blob/master/alarm%20screen.png)](https://github.com/sanjar91/CYBR8480-project/blob/master/alarm%20screen.png)
+[![data_flow_1](https://github.com/sanjar91/OucHH/blob/master/Updated%20alarm.png)](https://github.com/sanjar91/OucHH/blob/master/Updated%20alarm.png)
+
+## Hardware/Software Requirements
+
+### Hardware 
+* OucHH hardware component designed by yours truly, Sanjar :)
+  * Here are the components used in the OucHH hardware:
+    * SG90 servo motor: Frequency 50Hz, Power 4W, Voltage AC 4.8 V, Speed 0.1 sec/turn
+    * Plastic prop arm: This prop arm will be attached to the motor. When the motor starts the arm will rotate and continuously slap the user until the users stops the alarm
+    * Raspberry Pi 3:  Using an IFTTT webhook Raspberry Pi will receive alerts from mobile app and trigger the servo motor to turn on and rotate the prop arm 
+* Android mobile phone to download and use the app. 
+
+### Software
+* OucHH mobile app(available on github repo)
+* Android Studio for emulator (in case of not having an android phone)
+* GitHub to access application repository
+
+## Installation Directions
+Below are step by step instructions for how to install OucHH:
+* Download the source code from OucHH [github repository.](https://github.com/sanjar91/OucHH) 
+* Open the source code with Android studio
+* Run the app in the Android Studio Emulator or deploy it to an android phone
+
+## Getting Started Directions
+
+### Below are step by step instructions for how to use OucHH mobile app:
+* Launch the OucHH mobile app in your android device or an android emulator
+* Tap/Click on **SELECT** (A pop up dialog box will appear)
+* In the dialog box, spin the hour and minute roll to your desired time and click **OK** to set the alarm (Note: OucHH uses 24 hour time format)
+* Your alarm is set! You can sleep peacefully now, until of course the arm starts slapping you lol
+
+### Below are step by step instructions for how to use OuchH hardware component:
+* There are three major pieces of hardware that you will need to connect to each other:
+  * Raspberry pi
+  * SG90 servo motor
+  * Plastic prop arm
+* Plug the power and Ethernet cable to the Raspberry pi. If Wi-Fi is preconfigured in the Raspberry pi, you won't need to connect an Ethernet cable. 
+* Connect the SG90 servo motor to the Raspberry pi as shown in the picture below:
+
+<img src="https://github.com/sanjar91/OucHH/blob/master/pi.png">
+
+* Connect the plastic prop arm to the SG90 servo motor as shown in the picture below:
+
+<img src="https://github.com/sanjar91/OucHH/blob/master/motor.png">
+
+* Now securely place the SG90 servo motor next to your bed, preferably on a nightstand
+* Make sure the prop arm is within the reach of your pillow
+* Your hardware is set!
+
+After successfully setting up your hardware and alarm you can rest peacefully without worrying about sleeping through your usual alarm; OucHH will make sure you wake up ;)
+
+
 
 
 ## References 
