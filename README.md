@@ -153,13 +153,12 @@ Below are step by step instructions for how to install OucHH:
   * SG90 servo motor
   * Plastic prop arm
 * Plug the power and Ethernet cable to the Raspberry pi. If Wi-Fi is preconfigured in the Raspberry pi, you won't need to connect an Ethernet cable. 
-* Connect the SG90 servo motor to the Raspberry pi as shown in the picture below:
+* Connect the SG90 servo motor to the Raspberry pi as shown in the pictures below:
 
 <img src="https://github.com/sanjar91/OucHH/blob/master/pi.png">
-
-* Connect the plastic prop arm to the SG90 servo motor as shown in the picture below:
-
 <img src="https://github.com/sanjar91/OucHH/blob/master/motor.png">
+
+* Connect the plastic prop arm to the SG90 servo motor's drive shaft.
 
 * Now securely place the SG90 servo motor next to your bed, preferably on a nightstand
 * Make sure the prop arm is within the reach of your pillow
