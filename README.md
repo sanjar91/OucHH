@@ -139,7 +139,7 @@ As a **non-traditional student**, I want to be certain that **I can set more tha
 * Open the source code with Android studio
 * Run the app in the Android Studio Emulator or deploy it to an android phone
 
-### Below are instructions for how to install OucHH hardware:
+### Below are instructions for how to configure and install OucHH hardware code:
 Detailed description of putting together hardware is listed below under **Getting Started Directions**. The raspberry pi used within this prototype and any possible future commercial OucHH products will be preassembled. However, if you want to create your own hardware below are installation instructions to help you along:
 * First connect the following to your Raspberry pi:
   * Power cable
@@ -165,7 +165,9 @@ Detailed description of putting together hardware is listed below under **Gettin
     
    * After all the nodes are added connect them as shown in the diagram below and click on *Deploy* button on top right corner of the page:
    <img src="https://github.com/sanjar91/OucHH/blob/master/node-red%20flow.png">
- 
+   
+After successfully completing the steps above you should be able to test your server's connectivity by typing *"http://<Your IP address>:1880/servotest"* in any browser on any computer and as long as your Raspberry pi is up and Node-RED running you the motor should be triggered. Which brings us to another important piece of the puzzle, the python program that operates the servo. [Click on this link for the python program](https://github.com/sanjar91/OucHH/blob/master/node-red%20flow.png).
+
 
 ## Getting Started Directions
 
