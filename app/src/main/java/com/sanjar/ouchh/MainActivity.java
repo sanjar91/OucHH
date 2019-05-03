@@ -40,6 +40,7 @@ public class MainActivity extends FragmentActivity{
         Intent myIntent = new Intent(MainActivity.this, AlarmReceiver.class);
         pendingIntent = PendingIntent.getBroadcast(MainActivity.this, 0, myIntent, 0);
 
+        //call alarm picker from MyDialogFragment
         OnClickListener listener1 = new OnClickListener() {
             public void onClick(View view) {
                 textView2.setText("");
