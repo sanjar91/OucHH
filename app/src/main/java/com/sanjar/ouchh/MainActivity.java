@@ -55,7 +55,8 @@ public class MainActivity extends FragmentActivity{
                 transaction.commit();
             }
         };
-
+        
+        //connect the SET button and set it to listen to user input
         Button btn1 = findViewById(R.id.button1);
         btn1.setOnClickListener(listener1);
         OnClickListener listener2 = new OnClickListener() {
@@ -65,10 +66,13 @@ public class MainActivity extends FragmentActivity{
             }
         };
 
-
+        //connect the DISMISS button and set it to listen to user input
         Button btn2 = findViewById(R.id.button2);
         btn2.setOnClickListener(listener2);
+        cancelAlarm();
     }
+    
+    //cancel alarm function
     public void cancelAlarm(View v) {
         if (alarmManager!= null) {
             alarmManager.cancel(pendingIntent);
