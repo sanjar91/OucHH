@@ -134,10 +134,34 @@ As a **non-traditional student**, I want to be certain that **I can set more tha
 * GitHub to access application repository
 
 ## Installation Directions
-Below are step by step instructions for how to install OucHH:
+### Below are step by step instructions for how to install OucHH mobile app:
 * Download the source code from OucHH [github repository.](https://github.com/sanjar91/OucHH) 
 * Open the source code with Android studio
 * Run the app in the Android Studio Emulator or deploy it to an android phone
+
+### Below are instructions for how to install OucHH hardware:
+Detailed description of putting together hardware is listed below under **Getting Started Directions**. The raspberry pi used within this prototype and any possible future commercial OucHH products will be preassembled. However, if you want to create your own hardware below are installation instructions to help you along:
+* First connect the following to your Raspberry pi:
+  * Power cable
+  * Display monitor using HDMI cable 
+  * Mouse and key board using USB cables
+  * Ethernet cable or connect to your available Wi-Fi network
+  * And your servo motor to rotate the prop arm
+* After Raspberry pi is connected to all the above and is booted up follow the instructions below:
+  * Make sure your Raspberry pi has Node-RED installed, if not follow their [Installation instructions in this link](https://nodered.org/docs/getting-started/installation)
+  * Launch Node-RED from Raspberry pi drop down menu on top left of your screen then under *Programming* click on Node-RED
+  * Open another terminal and type *ifconfig* to get your current IP address
+  * Now open a web browser and type in <Your IP address>:1880 (Node-RED uses port 1880)
+  * Now in Node-RED create the following flow with 3 nodes (screen shots provided for reference):
+    * Input node: *http in* an http GET request that can be called upon:
+    <img src="https://github.com/sanjar91/OucHH/blob/master/http%20request.png">
+    * Output node: *http response*, each GET request needs a http response, therefore this node must be added:
+    <img src="https://github.com/sanjar91/OucHH/blob/master/http%20response.png">
+    * Advanced node: *exec*, triggered by the http GET node and it this node executes the python script that rotates the servo, (*note: my python program is called "servo.py" but if you change the name or write your own program then you must change this node accordingly; this applies to http GET node as well, if you change the "/servotest" URL then you must add the new URL to the java code):
+    <img src="https://github.com/sanjar91/OucHH/blob/master/python%20exec%20node.png">
+   * After all the nodes are added connect them as shown in the diagram below and click on *Deploy* button on top right corner of the page:
+   <img src="https://github.com/sanjar91/OucHH/blob/master/node-red%20flow.png">
+ 
 
 ## Getting Started Directions
 
