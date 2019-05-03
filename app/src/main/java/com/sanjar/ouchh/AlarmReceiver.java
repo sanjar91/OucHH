@@ -18,7 +18,11 @@ import java.net.ProtocolException;
 import java.net.URL;
 
 /*
-This is where I will add an intend to send to my raspberry pi using ifttt
+Performs the following three actions at set alarm time:
+1. Wake up message
+2. Alarm ringer
+3. Access the URL which will trigger Node-RED server in Raspberry pi which
+   will launch python program to active servro motor
  */
 public class AlarmReceiver extends WakefulBroadcastReceiver {
     @Override
@@ -62,11 +66,5 @@ public class AlarmReceiver extends WakefulBroadcastReceiver {
             e.printStackTrace();
 
         }*/
-
-
-
-        
-
-
     }
 }
