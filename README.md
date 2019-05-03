@@ -153,12 +153,16 @@ Detailed description of putting together hardware is listed below under **Gettin
   * Open another terminal and type *ifconfig* to get your current IP address
   * Now open a web browser and type in <Your IP address>:1880 (Node-RED uses port 1880)
   * Now in Node-RED create the following flow with 3 nodes (screen shots provided for reference):
+ 
     * Input node: *http in* an http GET request that can be called upon:
     <img src="https://github.com/sanjar91/OucHH/blob/master/http%20request.png">
+ 
     * Output node: *http response*, each GET request needs a http response, therefore this node must be added:
     <img src="https://github.com/sanjar91/OucHH/blob/master/http%20response.png">
+    
     * Advanced node: *exec*, triggered by the http GET node and it this node executes the python script that rotates the servo, (*note: my python program is called "servo.py" but if you change the name or write your own program then you must change this node accordingly; this applies to http GET node as well, if you change the "/servotest" URL then you must add the new URL to the java code):
     <img src="https://github.com/sanjar91/OucHH/blob/master/python%20exec%20node.png">
+    
    * After all the nodes are added connect them as shown in the diagram below and click on *Deploy* button on top right corner of the page:
    <img src="https://github.com/sanjar91/OucHH/blob/master/node-red%20flow.png">
  
