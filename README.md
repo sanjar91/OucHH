@@ -166,7 +166,7 @@ Detailed description of putting together hardware is listed below under **Gettin
    * After all the nodes are added connect them as shown in the diagram below and click on *Deploy* button on top right corner of the page:
    <img src="https://github.com/sanjar91/OucHH/blob/master/node-red%20flow.png">
    
-After successfully completing the steps above you should be able to test your server's connectivity by typing *"http://<Your IP address>:1880/servotest"* in any browser on any computer and as long as your Raspberry pi is up and Node-RED running you the motor should be triggered. Which brings us to another important piece of the puzzle, the python program that operates the servo. [Click on this link for the python program](https://github.com/sanjar91/OucHH/blob/master/node-red%20flow.png).
+After successfully completing the steps above you should be able to test your server's connectivity by typing *"http://<Your IP address>:1880/servotest"* in any browser on any computer and as long as your Raspberry pi is up and Node-RED running you the motor should be triggered. Which brings us to another important piece of the puzzle, the python program that operates the servo. [Click on this link for the python program](https://github.com/sanjar91/OucHH/blob/master/servo.py).
 
 
 ## Getting Started Directions
